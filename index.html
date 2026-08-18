@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Junhao Wei — Research Assistant at Macao Polytechnic University. Research in robotics, UAV path planning, reinforcement learning and vision-language-action systems." />
+  <title>Junhao Wei — Homepage</title>
+  <style>
+    :root {
+      --text: #333;
+      --muted: #666;
+      --line: #ddd;
+      --blue: #0b5ca8;
+      --blue2: #173f6e;
+      --bg: #fff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica, sans-serif;
+      line-height: 1.58;
+      font-size: 15px;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .topbar {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(255,255,255,.96);
+      border-bottom: 1px solid #eee;
+      backdrop-filter: blur(6px);
+    }
+    .nav {
+      max-width: 1120px; margin: 0 auto;
+      min-height: 48px; display: flex; justify-content: center; align-items: center;
+      gap: 28px; padding: 0 18px;
+      overflow-x: auto; white-space: nowrap;
+    }
+    .nav a { color: #555; font-size: 14px; }
+    .nav a:hover { color: var(--blue); text-decoration: none; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 30px 22px 60px; }
+    .hero {
+      display: grid; grid-template-columns: 220px 1fr; gap: 48px;
+      align-items: start;
+    }
+    .profile { position: sticky; top: 76px; }
+    .avatar {
+      width: 168px; height: 168px; border-radius: 50%; object-fit: cover;
+      display: block; margin: 2px auto 18px; border: 1px solid #e3e3e3;
+    }
+    h1 { font-size: 27px; line-height: 1.2; margin: 0 0 10px; font-weight: 650; }
+    .affil { font-size: 15px; margin: 0 0 8px; }
+    .role { color: var(--muted); margin-bottom: 10px; }
+    .location { color: #555; margin-bottom: 14px; }
+    .links { display: grid; gap: 7px; }
+    .links a { color: #444; }
+    .links a span { display:inline-block; width: 22px; color: #111; }
+    .intro { padding-top: 2px; }
+    .intro p { margin: 0 0 11px; }
+    section { margin-top: 26px; scroll-margin-top: 70px; }
+    h2 {
+      font-size: 21px; margin: 0 0 12px; padding-bottom: 7px;
+      border-bottom: 1px solid #bbb; font-weight: 650;
+    }
+    h3 { font-size: 17px; margin: 18px 0 7px; }
+    ul { margin: 0 0 10px; padding-left: 21px; }
+    li { margin: 7px 0; }
+    .news li { margin: 8px 0; }
+    .date { font-weight: 600; color: #555; margin-right: 8px; }
+    .pub { margin: 20px 0 24px; }
+    .pub-title { font-weight: 650; font-style: italic; }
+    .authors { margin-top: 4px; }
+    .venue { margin-top: 3px; color: #555; }
+    .pub-desc { margin-top: 6px; color: #555; }
+    .pub .tag { display:inline-block; margin-left:7px; padding: 1px 6px; border:1px solid #c9d8e8; border-radius: 3px; font-size: 12px; color: var(--blue2); font-style: normal; font-weight: 600; }
+    .two-col { display:grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+    .item-grid { display:grid; grid-template-columns: 140px 1fr; gap: 12px; margin: 16px 0; }
+    .item-date { font-weight: 650; color:#444; }
+    .muted { color: var(--muted); }
+    .compact li { margin: 5px 0; }
+    footer { margin-top: 42px; padding-top: 18px; border-top: 1px solid #eee; color:#777; font-size:13px; text-align:center; }
+    @media (max-width: 780px) {
+      .nav { justify-content: flex-start; gap: 18px; }
+      .wrap { padding: 24px 16px 45px; }
+      .hero { grid-template-columns: 1fr; gap: 22px; }
+      .profile { position: static; display: grid; grid-template-columns: 120px 1fr; gap: 18px; align-items: center; }
+      .avatar { width:120px; height:120px; margin:0; }
+      .profile .links { grid-column: 1 / -1; grid-template-columns: 1fr 1fr; }
+      .two-col { grid-template-columns: 1fr; gap: 6px; }
+      .item-grid { grid-template-columns: 1fr; gap: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav">
+      <a href="#home">Homepage</a>
+      <a href="#about">About Me</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#awards">Honors and Awards</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#services">Services</a>
+    </nav>
+  </header>
+
+  <main class="wrap" id="home">
+    <div class="hero">
+      <aside class="profile">
+        <img class="avatar" src="assets/junhao-wei.jpg" alt="Junhao Wei" />
+        <div>
+          <h1>Junhao Wei</h1>
+          <p class="affil"><a href="https://www.mpu.edu.mo/" target="_blank" rel="noopener">Macao Polytechnic University</a></p>
+          <p class="role">Research Assistant<br />UAV / Robotics Research</p>
+          <p class="location">📍 Macao, China</p>
+        </div>
+        <div class="links">
+          <a href="mailto:p2312195@mpu.edu.mo"><span>✉</span>Email</a>
+          <a href="https://github.com/JunhaoWei-mpu" target="_blank" rel="noopener"><span>◉</span>GitHub</a>
+          <a href="https://scholar.google.com.sg/citations?hl=zh-CN&user=uo3scd4AAAAJ&pagesize=80&view_op=list_works" target="_blank" rel="noopener"><span>🎓</span>Google Scholar</a>
+          <a href="assets/JunhaoWei-CV.pdf" target="_blank" rel="noopener"><span>▣</span>CV</a>
+        </div>
+      </aside>
+
+      <div class="intro">
+        <section id="about">
+          <h2>About Me</h2>
+          <p>I am a Research Assistant affiliated with the Faculty of Applied Sciences at <a href="https://www.mpu.edu.mo/" target="_blank" rel="noopener">Macao Polytechnic University</a>. My research focuses on robotics and autonomous systems, with an emphasis on UAV path planning, trajectory generation, reinforcement learning, and Vision-Language-Action (VLA) systems.</p>
+          <p>My current interests include safe autonomous navigation, optimization-based planning, learning-based control, multimodal perception, and intelligent aerial manipulation. I am particularly interested in combining learning and geometric planning to make UAV systems more efficient, robust, and deployable in real-world environments.</p>
+        </section>
+
+        <section id="news">
+          <h2>🔥 News</h2>
+          <ul class="news">
+            <li><span class="date">2026.08:</span> Released <em>ARIES-Mission2</em>, a zero-shot Vision-Language-Action framework for fast large-scale aerial mission generation. <a href="https://arxiv.org/abs/2608.12763" target="_blank" rel="noopener">[arXiv]</a></li>
+            <li><span class="date">2026.05:</span> Released <em>SAGA</em>, a self-attention and goal-aware anchor-based planner for safe UAV autonomous navigation. <a href="https://arxiv.org/abs/2605.02301" target="_blank" rel="noopener">[arXiv]</a></li>
+            <li><span class="date">2025:</span> Awarded the Macao Polytechnic University PhD Full Scholarship.</li>
+            <li><span class="date">2024.09–now:</span> Research Assistant at Macao Polytechnic University, working on UAV path planning and related research projects.</li>
+          </ul>
+        </section>
+
+        <section id="publications">
+          <h2>📝 Publications</h2>
+          <h3>Highlights</h3>
+
+          <article class="pub">
+            <div class="pub-title">ARIES-Mission2: A Zero-Shot Vision-Language-Action Framework for Fast Large-Scale Aerial Mission Generation <span class="tag">2026</span></div>
+            <div class="authors"><strong>Junhao Wei</strong>, Yanxiao Li, Haochen Li, Yifu Zhao, Dexing Yao, Baili Lu, Zikun Li, Yapeng Wang, Sio-Kei Im, Dingcheng Yang, Xu Yang</div>
+            <div class="venue">arXiv:2608.12763 · submitted August 2026 · UAV / VLA / mission planning</div>
+            <div class="pub-desc">A zero-shot VLA pipeline that combines natural-language task parsing, visual target grounding, GPS waypoint generation, and TSP-based route optimization for large-scale aerial missions.</div>
+            <div><a href="https://arxiv.org/abs/2608.12763" target="_blank" rel="noopener">Paper</a></div>
+          </article>
+
+          <article class="pub">
+            <div class="pub-title">SAGA: A Robust Self-Attention and Goal-Aware Anchor-based Planner for Safe UAV Autonomous Navigation <span class="tag">2026</span></div>
+            <div class="authors"><strong>Junhao Wei</strong>, Yanxiao Li, Dexing Yao, Yifu Zhao, Haochen Li, Qibin He, Baili Lu, Xiaofan Zou, Dingcheng Yang, Sio-Kei Im, Yapeng Wang, Xu Yang</div>
+            <div class="venue">arXiv:2605.02301 · 2026 · Robotics / UAV planning</div>
+            <div class="pub-desc">A one-stage local planner that reasons over motion anchors with self-attention, polar positional encoding, and goal-aware modulation to generate safe, dynamically feasible trajectories.</div>
+            <div><a href="https://arxiv.org/abs/2605.02301" target="_blank" rel="noopener">Paper</a></div>
+          </article>
+
+          <h3>Other First-Author Publications</h3>
+          <ul class="compact">
+            <li><strong>LSNWOA:</strong> An Enhanced Whale Optimization Algorithm with Multi-strategy for Numerical And Engineering Design Optimization Problems — JCR Q2 Sensors, Accept (Featured Paper).</li>
+            <li><strong>RWOA:</strong> A Novel Enhanced Whale Optimization Algorithm with Multi-strategy for Numerical Optimization And Engineering Design Problems — JCR Q1 PLOS ONE, Accept.</li>
+            <li><strong>MRBMO:</strong> An Enhanced RBMO Algorithm for Solving Numerical Optimization Challenges — JCR Q2 Symmetry, Accept.</li>
+            <li><strong>LSIWOA:</strong> An Enhanced Whale Optimization Algorithm with Levy flight and Spiral flight for Numerical And Engineering Design Optimization Problems — JCR Q1 PLOS ONE, Accept.</li>
+            <li><strong>Adaptive Position Updating Particle Swarm Optimization algorithm for UAV path planning</strong> — Core b 2024, Accept.</li>
+            <li><strong>TSWOA:</strong> An Enhanced WOA with Triangular Walk and Spiral Flight for Engineering Design Optimization — ICAACE2025, Accept.</li>
+            <li><strong>ESTGWOA:</strong> a novel enhanced WOA with multi-strategy for solving engineering design optimization challenges — JCR Q1 Scientific Reports, Accept.</li>
+            <li><strong>Modified Rapidly-exploring Random Tree Algorithm for Urban UAV Pathing Planning</strong> — IEEE conference, Accept.</li>
+            <li><strong>AHRRT:</strong> An Enhanced Rapidly-Exploring Random Tree Algorithm with Heuristic Search for UAV Urban Path Planning — JCR Q2 Symmetry, Submitted.</li>
+            <li><strong>CICDWOA:</strong> A Collective Cognitive Sharing Whale Optimization Algorithm with Cauchy Inverse Cumulative Distribution for 2D/3D Path Planning and Various Engineering Applications — Knowledge-Based Systems, Submitted.</li>
+            <li><strong>GeoSSA:</strong> Geometric Sparrow Search Algorithm for UAV Path Planning and Engineering Design — Cluster Computing, Submitted.</li>
+            <li><strong>AHMWOA:</strong> A Geometric WOA for Numerical Optimization and Engineering Design Optimization Challenges — Applied Soft Computing, Submitted.</li>
+            <li><strong>RBMOOBL:</strong> An Enhanced RBMO Algorithm for Solving Numerical Optimization Challenges — Scientific Reports, Submitted.</li>
+            <li><strong>An Enhanced Whale Optimization Algorithm with Log-Normal Distribution for Optimizing Coverage of Wireless Sensor Networks</strong> — 5th International Conference on AI, Information Processing and Cloud Computing, Accept.</li>
+          </ul>
+
+          <h3>Non-First-Author Publications</h3>
+          <ul class="compact">
+            <li><strong>GMWOA:</strong> A Multi-Strategy Enhanced Whale Optimization Algorithm for Engineering Design Optimization — PLOS ONE, Accept.</li>
+            <li><strong>Credit Card Fraud Detection Based on MiniKM-SVMSMOTE-XGBoost Model</strong> — 2024 8th International Conference on Big Data and Internet of Things, Accept.</li>
+            <li><strong>WSLWOA:</strong> An Enhanced Whale Optimization Algorithm with Cauchy-Levy Mutation for Solving Numerical and Engineering Design Optimization Problems — Cluster Computing, Under Review.</li>
+            <li><strong>STWOA-XGBoost:</strong> A Novel Hybrid Approach for Robust Early-Stage Prediction of Academic Potential in Computer Science Students — Cluster Computing, Under Review.</li>
+            <li><strong>Dual-perspective Patient Representation Learning based on Electronic Health Records</strong> — Neurocomputing, Under Review.</li>
+          </ul>
+        </section>
+
+        <section id="awards">
+          <h2>🎖 Honors and Awards</h2>
+          <ul>
+            <li><strong>2025</strong> — Macao Polytechnic University PhD Full Scholarship.</li>
+            <li><strong>20th Huawei Cup</strong> China Graduate Mathematical Modeling Competition — Third Prize.</li>
+            <li><strong>18th Challenge Cup</strong> National University Students Extracurricular Academic Science and Technology Works Competition — Second Prize.</li>
+            <li>Aviation College, 2020–2021 Academic Year — Outstanding Student Leader.</li>
+            <li>Aviation College — First-class Scholarship (2020–2021, Semester 1).</li>
+            <li>Aviation College — Second-class Scholarship (2020–2021, Semester 2).</li>
+            <li>Aviation College — Second-class Scholarship (2019–2020, Semester 2).</li>
+            <li>Aviation College — Third-class Scholarship (2021–2022, Semester 1).</li>
+            <li>BIT Zhuhai, 2022–2023 — Team Second Prize in Badminton Competition.</li>
+            <li>BIT Zhuhai, 2024 — School Anniversary Cup Bay Area Alumni Badminton Tournament, Runner-up.</li>
+          </ul>
+        </section>
+
+        <section id="projects">
+          <h2>🧩 Selected Projects</h2>
+          <div class="pub">
+            <div class="pub-title">UAV Path Planning Based on Improved Particle Swarm Optimization (PSO)</div>
+            <div class="pub-desc">Adaptive position-update PSO using tent mapping initialization, dynamic parameter adjustment, adaptive distribution, and adaptive position updates for UAV path planning.</div>
+          </div>
+          <div class="pub">
+            <div class="pub-title">RNav: A Safe Trajectory Planner based on Reinforcement Learning in Dynamic Environments</div>
+            <div class="pub-desc">An end-to-end PPO-based trajectory planner with a safety shield for robust navigation around static and moving obstacles.</div>
+          </div>
+          <div class="pub">
+            <div class="pub-title">An Aerial Manipulation System with Visual Autonomous Grasping and Master-Slave Control</div>
+            <div class="pub-desc">An aerial manipulation UAV integrating a robotic arm, D435 depth camera, and Orin NX for perception-driven grasping, teleoperation, and autonomous navigation.</div>
+          </div>
+          <div class="pub">
+            <div class="pub-title">XLeRobot Dual-Arm Mobile Manipulation</div>
+            <div class="pub-desc">A low-cost dual-arm mobile robot built with SO101 arms and a LeKiwi mobile base, leveraging VLA models, VR teleoperation, and imitation learning.</div>
+          </div>
+          <div class="pub">
+            <div class="pub-title">6D Robotic Arm Grasping</div>
+            <div class="pub-desc">Pose and position control for picking objects from clutter using PnP pose solving, ICP, DeepGraspNet, and language/vision models.</div>
+          </div>
+          <div class="pub">
+            <div class="pub-title">Credit Card Fraud Detection Based on Improved XGBoost</div>
+            <div class="pub-desc">An improved SVM-SMOTE + MiniBatchKMeans pipeline to address high dimensionality, large data volume, and extreme class imbalance.</div>
+          </div>
+        </section>
+
+        <section id="education">
+          <h2>📖 Education</h2>
+          <div class="item-grid">
+            <div class="item-date">2023.08–2025.06</div>
+            <div><strong>Macao Polytechnic University</strong><br />Big Data &amp; Internet of Things<br /><span class="muted">GPA: 3.2</span></div>
+          </div>
+          <div class="item-grid">
+            <div class="item-date">2019.09–2024.06</div>
+            <div><strong>Beijing Institute of Technology, Zhuhai</strong><br />UAV System Engineering<br /><span class="muted">GPA: 3.2</span></div>
+          </div>
+        </section>
+
+        <section id="experience">
+          <h2>💼 Experience</h2>
+          <div class="item-grid">
+            <div class="item-date">2024.09–now</div>
+            <div><strong>Macao Polytechnic University</strong> — Research Assistant<br />UAV research group; primarily responsible for UAV path planning and completing projects assigned by the supervisor.</div>
+          </div>
+          <div class="item-grid">
+            <div class="item-date">2024.06–2024.12</div>
+            <div><strong>Pazhou Lab (Huangpu)</strong> — Algorithm Intern<br />GAC Aion APS system optimization; optimization for the Guangdong–Hong Kong–Macao Greater Bay Area International Algorithm Competition; deployment and fine-tuning of large models in a 12345 dispatch project.</div>
+          </div>
+          <div class="item-grid">
+            <div class="item-date">2020.09–2023.06</div>
+            <div><strong>Beijing Institute of Technology, Zhuhai</strong> — Vice Class Leader<br />Organized class activities, coordinated functional plans, and assisted student communication.</div>
+          </div>
+          <div class="item-grid">
+            <div class="item-date">2019.09–2020.06</div>
+            <div><strong>Beijing Institute of Technology, Zhuhai</strong> — Learning Monitor</div>
+          </div>
+        </section>
+
+        <section id="services">
+          <h2>📚 Services &amp; Skills</h2>
+          <div class="two-col">
+            <div>
+              <h3>Technical Skills</h3>
+              <ul class="compact">
+                <li>CET-6 / CET-4; able to communicate fluently with foreigners.</li>
+                <li>Python, C, Linux.</li>
+                <li>CAD, CATIA, MATLAB, Altium Designer, Keil, QGC.</li>
+                <li>Simulink, ROS, Gazebo.</li>
+                <li>Fluent in Cantonese.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Research Interests</h3>
+              <ul class="compact">
+                <li>UAV path planning &amp; trajectory generation</li>
+                <li>Reinforcement learning</li>
+                <li>Vision-Language-Action (VLA)</li>
+                <li>Robotics &amp; autonomous navigation</li>
+                <li>Optimization algorithms</li>
+              </ul>
+            </div>
+          </div>
+          <h3>Patent</h3>
+          <ul>
+            <li><strong>Fully Automatic Intelligent Chinese Medicine Decoction Equipment</strong> — A patent-related project listed in the CV.</li>
+          </ul>
+        </section>
+
+        <footer>
+          © 2026 Junhao Wei · <a href="https://github.com/JunhaoWei-mpu" target="_blank" rel="noopener">GitHub</a> · Hosted with GitHub Pages
+        </footer>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

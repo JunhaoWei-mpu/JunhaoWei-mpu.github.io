@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Junhao Wei — Robotics, UAV navigation, trajectory generation, reinforcement learning, and vision-language-action systems." />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Junhao Wei | Robotics & UAV Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#f7f8fa;--card:#ffffff;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--accent:#2563eb;--accent-soft:#eff6ff;--dark:#0b1220;--shadow:0 16px 50px rgba(15,23,42,.08)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.7}
+    a{color:inherit;text-decoration:none} img{max-width:100%;display:block}
+    .shell{width:min(1180px,92vw);margin:0 auto}.nav{position:sticky;top:0;z-index:30;background:rgba(247,248,250,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(226,232,240,.8)}
+    .nav-inner{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:-.03em}.brand span{color:var(--accent)}
+    .navlinks{display:flex;gap:26px;font-size:14px;color:var(--muted)} .navlinks a:hover{color:var(--ink)}
+    .hero{padding:82px 0 68px}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:center}.eyebrow{font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+    h1{font-size:clamp(46px,7vw,84px);line-height:.98;letter-spacing:-.065em;margin:16px 0 20px}.lede{font-family:"Source Serif 4",serif;font-size:23px;line-height:1.45;color:#334155;max-width:680px;margin:0 0 30px}
+    .meta{display:flex;flex-wrap:wrap;gap:10px}.pill{border:1px solid var(--line);background:var(--card);padding:9px 13px;border-radius:999px;font-size:13px;color:#475569}.pill strong{color:var(--ink)}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:12px;border:1px solid var(--line);font-weight:700;font-size:14px;transition:.2s ease}.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(15,23,42,.08)}.btn.primary{background:var(--ink);color:white;border-color:var(--ink)} .btn.secondary{background:white}
+    .portrait-wrap{display:flex;justify-content:flex-end}.portrait-card{width:min(410px,100%);padding:18px;background:white;border:1px solid var(--line);border-radius:28px;box-shadow:var(--shadow);transform:rotate(1deg)}.portrait-card img{aspect-ratio:1/1;object-fit:cover;border-radius:20px}.caption{padding:14px 6px 2px;color:var(--muted);font-size:13px}
+    section{padding:78px 0;border-top:1px solid var(--line)}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:28px}.section-head h2{margin:0;font-size:34px;letter-spacing:-.045em}.section-head p{margin:0;color:var(--muted);max-width:650px}
+    .grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 8px 32px rgba(15,23,42,.035)}.card h3{margin:0 0 8px;font-size:20px;letter-spacing:-.02em}.card p{margin:0;color:#475569}.tagrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.tag{font-size:12px;padding:6px 9px;border-radius:8px;background:var(--accent-soft);color:#1d4ed8;border:1px solid #dbeafe}
+    .timeline{display:grid;gap:0}.item{display:grid;grid-template-columns:190px 1fr;gap:28px;padding:26px 0;border-top:1px solid var(--line)}.item:first-child{border-top:0;padding-top:0}.date{font-weight:800;font-size:13px;color:#475569}.role{font-weight:800;font-size:18px}.org{color:#334155;margin-top:2px}.item ul{margin:10px 0 0;padding-left:18px;color:#475569}
+    .pubs{display:grid;gap:16px}.pub{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;padding:22px;border:1px solid var(--line);border-radius:18px;background:white}.pub-number{width:34px;height:34px;border-radius:10px;background:var(--ink);color:white;display:grid;place-items:center;font-weight:800;font-size:13px}.pub h3{margin:0 0 7px;font-size:17px;line-height:1.4}.pub .authors{color:#475569;font-size:14px}.pub .venue{margin-top:8px;font-size:13px;color:var(--accent);font-weight:700}.pub .links{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap}.textlink{font-size:13px;font-weight:800;color:#1d4ed8}
+    .feature{display:grid;grid-template-columns:1fr .95fr;gap:18px}.feature-main{background:var(--dark);color:white;border-radius:24px;padding:32px;min-height:360px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:var(--shadow)}.feature-main .eyebrow{color:#93c5fd}.feature-main h3{font-size:30px;line-height:1.15;letter-spacing:-.04em;max-width:640px;margin:12px 0}.feature-main p{color:#cbd5e1;max-width:650px}.feature-side{display:grid;gap:18px}.metric{background:white;border:1px solid var(--line);border-radius:20px;padding:24px}.metric .n{font-size:32px;font-weight:800;letter-spacing:-.04em}.metric p{color:var(--muted);margin:4px 0 0;font-size:14px}
+    .skills{display:flex;flex-wrap:wrap;gap:10px}.skill{padding:11px 14px;background:white;border:1px solid var(--line);border-radius:12px;font-weight:600;font-size:14px}
+    .award{display:flex;gap:14px;align-items:flex-start;padding:15px 0;border-top:1px solid var(--line)}.award:first-child{border-top:0}.award-mark{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:8px;flex:none}.award strong{display:block}.award span{color:var(--muted);font-size:14px}
+    footer{padding:44px 0 60px;color:var(--muted);font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .fade{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}.fade.show{opacity:1;transform:none}
+    @media (max-width:900px){.hero-grid,.feature{grid-template-columns:1fr}.portrait-wrap{justify-content:flex-start}.portrait-card{width:min(360px,100%)}.navlinks{display:none}.item{grid-template-columns:1fr;gap:8px}.grid-2{grid-template-columns:1fr}.hero{padding-top:56px}}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="shell nav-inner">
+      <a class="brand" href="#top">Junhao <span>Wei</span></a>
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#awards">Awards</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" style="border-top:0">
+      <div class="shell hero-grid">
+        <div class="fade">
+          <div class="eyebrow">Robotics · UAVs · AI</div>
+          <h1>Junhao Wei</h1>
+          <p class="lede">Research Assistant at Macao Polytechnic University working on robot navigation, trajectory generation, reinforcement learning, and vision-language-action systems for autonomous UAVs and mobile robots.</p>
+          <div class="meta"><span class="pill"><strong>Research Assistant</strong> · MPU</span><span class="pill">Macao SAR, China</span><span class="pill">Robotics · RL · VLA</span></div>
+          <div class="actions">
+            <a class="btn primary" href="https://arxiv.org/abs/2608.12763" target="_blank" rel="noreferrer">Latest paper ↗</a>
+            <a class="btn secondary" href="https://scholar.google.com.sg/citations?hl=zh-CN&user=uo3scd4AAAAJ&pagesize=80&view_op=list_works" target="_blank" rel="noreferrer">Google Scholar ↗</a>
+            <a class="btn secondary" href="assets/JunhaoWei-CV.pdf" target="_blank">View CV ↗</a>
+          </div>
+        </div>
+        <div class="portrait-wrap fade">
+          <figure class="portrait-card">
+            <img src="assets/junhao-wei.jpg" alt="Portrait of Junhao Wei" />
+            <figcaption class="caption">Junhao Wei · Macao Polytechnic University</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="shell">
+        <div class="section-head fade"><h2>About</h2><p>A research-focused personal site: concise, academic, and easy to update as papers, projects, and milestones grow.</p></div>
+        <div class="grid-2">
+          <article class="card fade"><h3>Current focus</h3><p>Safe and efficient motion planning for UAVs and mobile robots, with an emphasis on learning-based planners, optimization, and multimodal perception-to-action pipelines.</p><div class="tagrow"><span class="tag">UAV Navigation</span><span class="tag">Trajectory Planning</span><span class="tag">Reinforcement Learning</span><span class="tag">VLA</span></div></article>
+          <article class="card fade"><h3>Education</h3><p><strong>Macao Polytechnic University</strong> · Big Data & Internet of Things (2023.08–2025.06)</p><p style="margin-top:10px"><strong>Beijing Institute of Technology, Zhuhai</strong> · UAV System Engineering (2019.09–2024.06)</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="research">
+      <div class="shell">
+        <div class="section-head fade"><h2>Research</h2><p>From global route generation to local collision-aware motion planning and multimodal mission generation.</p></div>
+        <div class="feature">
+          <article class="feature-main fade">
+            <div>
+              <div class="eyebrow">Featured · 2026</div>
+              <h3>ARIES-Mission2: zero-shot VLA for large-scale aerial mission generation</h3>
+              <p>The framework separates visual-semantic understanding from physical route optimization, turning natural-language instructions and satellite imagery into optimized GPS waypoint missions.</p>
+            </div>
+            <div class="actions"><a class="btn" style="background:white;color:var(--dark);border-color:white" href="https://arxiv.org/abs/2608.12763" target="_blank" rel="noreferrer">Read on arXiv ↗</a></div>
+          </article>
+          <div class="feature-side">
+            <div class="metric fade"><div class="n">21.6%</div><p>shorter route than the reported unoptimized VLA baseline in the 30-task benchmark.</p></div>
+            <div class="metric fade"><div class="n">19.18 s</div><p>reported average end-to-end time per task for the complete 30-task workflow.</p></div>
+            <div class="metric fade"><div class="n">3.6×</div><p>reported speed advantage over human expert planning in the same experiment.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <div class="shell">
+        <div class="section-head fade"><h2>Selected publications</h2><p>Recent work is placed first; the broader publication record can be maintained here as your Scholar profile grows.</p></div>
+        <div class="pubs">
+          <article class="pub fade"><div class="pub-number">01</div><div><h3>ARIES-Mission2: A Zero-Shot Vision-Language-Action Framework for Fast Large-Scale Aerial Mission Generation</h3><div class="authors"><strong>Junhao Wei</strong>, Yanxiao Li, Haochen Li, Yifu Zhao, Dexing Yao, Baili Lu, Zikun Li, Yapeng Wang, Sio-Kei Im, Dingcheng Yang, Xu Yang</div><div class="venue">arXiv · 2608.12763 · 2026 · featured on this site as IEEE VTC2026-Fall work</div><div class="links"><a class="textlink" href="https://arxiv.org/abs/2608.12763" target="_blank" rel="noreferrer">Paper ↗</a></div></div></article>
+          <article class="pub fade"><div class="pub-number">02</div><div><h3>SAGA: A Robust Self-Attention and Goal-Aware Anchor-based Planner for Safe UAV Autonomous Navigation</h3><div class="authors"><strong>Junhao Wei</strong>, Yanxiao Li, Dexing Yao, Yifu Zhao, Haochen Li, Qibin He, Baili Lu, Xiaofan Zou, Dingcheng Yang, Sio-Kei Im, Yapeng Wang, Xu Yang</div><div class="venue">arXiv · 2605.02301 · 2026 · ICONIP 2026</div><div class="links"><a class="textlink" href="https://arxiv.org/abs/2605.02301" target="_blank" rel="noreferrer">Paper ↗</a></div></div></article>
+          <article class="pub fade"><div class="pub-number">03</div><div><h3>Adaptive Position Updating Particle Swarm Optimization algorithm for UAV path planning</h3><div class="authors"><strong>Junhao Wei</strong>, Yanzhao Gu, Eddie Law*, Ngai Cheong</div><div class="venue">Core b · 2024 22nd International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks · Accepted</div></div></article>
+          <article class="pub fade"><div class="pub-number">04</div><div><h3>LSWEA / RWOA / MRBMO and related enhanced metaheuristic optimization methods</h3><div class="authors">A continuing line of first-author work on whale optimization, metaheuristic search, engineering design optimization, and UAV path planning.</div><div class="venue">JCR Q1/Q2 journals and international conferences · see CV / Google Scholar for the full list</div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="shell">
+        <div class="section-head fade"><h2>Experience</h2><p>Research, algorithms, and practical deployment experience across UAV systems and large-model workflows.</p></div>
+        <div class="timeline">
+          <div class="item fade"><div class="date">2024.09 — now</div><div><div class="role">Research Assistant</div><div class="org">Macao Polytechnic University · UAV research group</div><ul><li>Primarily responsible for UAV path planning and supervisor-assigned research projects.</li><li>Research directions include learning-based navigation, trajectory generation, and intelligent autonomous systems.</li></ul></div></div>
+          <div class="item fade"><div class="date">2024.06 — 2024.12</div><div><div class="role">Algorithm Intern</div><div class="org">Pazhou Lab (Huangpu)</div><ul><li>Worked on GAC Aion APS system optimization.</li><li>Contributed to the Greater Bay Area International Algorithm Competition work.</li><li>Participated in the 12345 dispatch project, including large-model deployment and fine-tuning.</li></ul></div></div>
+          <div class="item fade"><div class="date">2020.09 — 2023.06</div><div><div class="role">Vice Class Leader</div><div class="org">Beijing Institute of Technology, Zhuhai</div><ul><li>Organized class activities, coordinated functional departments, and supported student communication.</li></ul></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="awards">
+      <div class="shell">
+        <div class="section-head fade"><h2>Awards</h2><p>Selected academic and competition achievements.</p></div>
+        <div class="grid-2">
+          <div class="card fade">
+            <div class="award"><div class="award-mark"></div><div><strong>2025 Macao Polytechnic University PhD Full Scholarship</strong><span>Full scholarship for doctoral study.</span></div></div>
+            <div class="award"><div class="award-mark"></div><div><strong>20th “Huawei Cup” China Graduate Mathematical Modeling Competition</strong><span>Third Prize.</span></div></div>
+            <div class="award"><div class="award-mark"></div><div><strong>18th “Challenge Cup” National University Students Extracurricular Academic Science and Technology Works Competition</strong><span>Second Prize.</span></div></div>
+          </div>
+          <div class="card fade">
+            <div class="award"><div class="award-mark"></div><div><strong>Outstanding Student Leader</strong><span>Aviation College, 2020–2021 academic year.</span></div></div>
+            <div class="award"><div class="award-mark"></div><div><strong>Academic Scholarships</strong><span>Multiple first-, second-, and third-class scholarships across 2019–2023.</span></div></div>
+            <div class="award"><div class="award-mark"></div><div><strong>Badminton competition awards</strong><span>Team Second Prize and Bay Area Alumni Tournament runner-up.</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="shell">
+        <div class="section-head fade"><h2>Skills & contact</h2><p>Built to make the important academic links one click away.</p></div>
+        <div class="grid-2">
+          <article class="card fade"><h3>Technical skills</h3><div class="skills" style="margin-top:15px"><span class="skill">Python</span><span class="skill">C / C++</span><span class="skill">Linux</span><span class="skill">ROS</span><span class="skill">Gazebo</span><span class="skill">Simulink</span><span class="skill">Matlab</span><span class="skill">CAD / Catia</span><span class="skill">Altium Designer</span><span class="skill">Deep Learning</span><span class="skill">Reinforcement Learning</span><span class="skill">VLA / VLM</span></div></article>
+          <article class="card fade"><h3>Contact</h3><p style="margin-top:10px">Macao Polytechnic University</p><p>Email: <a class="textlink" href="mailto:p2312195@mpu.edu.mo">p2312195@mpu.edu.mo</a></p><div class="actions"><a class="btn primary" href="https://scholar.google.com.sg/citations?hl=zh-CN&user=uo3scd4AAAAJ&pagesize=80&view_op=list_works" target="_blank" rel="noreferrer">Google Scholar ↗</a><a class="btn secondary" href="assets/JunhaoWei-CV.pdf" target="_blank">CV ↗</a></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-row"><div>© <span id="year"></span> Junhao Wei</div><div>Built for GitHub Pages · plain HTML/CSS/JS</div></div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const obs = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('show'); }), {threshold:.12});
+    document.querySelectorAll('.fade').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>

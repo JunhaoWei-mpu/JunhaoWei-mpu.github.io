@@ -58,10 +58,10 @@ I received my master's degree in Big Data and Internet of Things from Macao Poly
 
 ## Conference Reviewer
 
-- ICONIP
-- PRCV
-- PRICAI
-- ICDM
+- ICONIP 2026
+- PRCV 2026
+- PRICAI 2026
+- ICDM 2026
 
 ## Journal Reviewer
 

@@ -1,0 +1,12 @@
+_site/
+.bundle/
+vendor/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+__pycache__/
+.DS_Store
+homepage-ready.zip
+homepage-source.zip
+照片
+简历

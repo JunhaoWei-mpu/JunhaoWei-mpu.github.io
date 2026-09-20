@@ -1,0 +1,68 @@
+title: "Junhao Wei"
+name: "Junhao Wei"
+description: "PhD Student"
+url: "https://JunhaoWei-mpu.github.io"
+baseurl: ""
+repository: "JunhaoWei-mpu/JunhaoWei-mpu.github.io"
+locale: "en"
+timezone: "Asia/Shanghai"
+
+author:
+  name: "Junhao Wei"
+  avatar: "/assets/portrait.jpg"
+  bio: "Macao Polytechnic University"
+  location: "Macao, China"
+  email: "p2312195@mpu.edu.mo"
+  googlescholar: "https://scholar.google.com.sg/citations?hl=zh-CN&user=uo3scd4AAAAJ&view_op=list_works"
+  github: "JunhaoWei-mpu"
+
+include:
+  - _pages
+exclude:
+  - .bundle
+  - .github
+  - .sass-cache
+  - .jekyll-cache
+  - vendor
+  - docs
+  - scripts
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - TEMPLATE.md
+  - homepage-ready.zip
+  - homepage-source.zip
+  - run_server.sh
+  - 打开主页.sh
+  - 照片
+  - 简历
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+encoding: "utf-8"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

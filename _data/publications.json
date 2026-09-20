@@ -1,0 +1,541 @@
+[
+  {
+    "year": 2026,
+    "title": "Structural characterization of PAMK and its protective effect against thymic necroptosis in goslings",
+    "authors": [
+      "W Li",
+      "B Lu",
+      "X Zhou",
+      "S Pan",
+      "J Wei",
+      "B Li",
+      "N Cao",
+      "Y Huang",
+      "W Liu",
+      "X Fu",
+      "…"
+    ],
+    "venue": "Veterinary Quarterly, 46(1), 2695104",
+    "status": "published",
+    "doi": "10.1080/01652176.2026.2695104",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "Coordination Core-Ligand Collaborative Optimizer (CLCO): A chemistry-inspired metaheuristic for global numerical optimization, space–air–ground path planning, and constrained engineering design",
+    "authors": [
+      "Y Li",
+      "J Wei",
+      "S Mirjalili",
+      "Y Zhao",
+      "Z Li",
+      "Z Wang",
+      "SK Im",
+      "X Yang",
+      "Y Wang"
+    ],
+    "venue": "Advanced Engineering Informatics",
+    "status": "accepted",
+    "doi": "10.1016/j.aei.2026.105092",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "ARIES-Mission2: A Zero-Shot Vision-Language-Action Framework for Fast Large-Scale Aerial Mission Generation",
+    "authors": [
+      "J Wei",
+      "Y Li",
+      "H Li",
+      "Y Zhao",
+      "D Yao",
+      "B Lu",
+      "Z Li",
+      "Y Wang",
+      "SK Im",
+      "D Yang",
+      "…"
+    ],
+    "venue": "IEEE VTC 2026-Fall",
+    "status": "accepted",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "DHCRWOA: Adaptive Whale Optimization Algorithm with Cauchy-Rayleigh Distribution for Numerical and Engineering Design Optimization",
+    "authors": [
+      "Y Li",
+      "J Wei",
+      "Y Zhao",
+      "Z Li",
+      "Z Wang",
+      "SK Im",
+      "X Yang",
+      "Y Wang"
+    ],
+    "venue": "Scientific Reports",
+    "status": "published",
+    "doi": "10.1038/s41598-026-49084-z",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "HLWOA: An Enhanced Whale Optimization Algorithm for UAV Relay Communication Deployment",
+    "authors": [
+      "H Li",
+      "J Wei",
+      "Y Zhao",
+      "Y Li",
+      "D Yao",
+      "Z Peng",
+      "Z Mai",
+      "J Yu",
+      "X Yang",
+      "Y Wang"
+    ],
+    "venue": "EITCE 2026, 206–210",
+    "status": "accepted",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "A Polynomial-Decay and Pinhole-Imaging Whale Optimization Algorithm for UAV Relay Communication Deployment",
+    "authors": [
+      "Z Peng",
+      "J Wei",
+      "B Lu",
+      "Y Li",
+      "Y Zhao",
+      "H Li",
+      "D Yao",
+      "X Yang",
+      "Y Wang"
+    ],
+    "venue": "EITCE 2026",
+    "status": "accepted",
+    "doi": "",
+    "note": "Best Poster Award",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "An Enhanced Whale Optimization Algorithm with Log-Normal Distribution for Optimizing Coverage of Wireless Sensor Networks",
+    "authors": [
+      "J Wei",
+      "Y Gu",
+      "R Zhang",
+      "Y Li",
+      "W Zhu",
+      "J Song",
+      "Y Wang",
+      "X Yang",
+      "N Cheong"
+    ],
+    "venue": "AIIPCC 2025, 138–147",
+    "status": "published",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "KIO-planner: Attention-Guided Single-Stage Motion Planning with Dual Mapping for UAV Navigation",
+    "authors": [
+      "D Yao",
+      "H Li",
+      "J Wei",
+      "Y Zhao",
+      "Y Li",
+      "J Xu",
+      "J Hu",
+      "L Tian",
+      "B Lu",
+      "Z Li",
+      "X Yang",
+      "…"
+    ],
+    "venue": "IEEE VTC 2026-Fall",
+    "status": "accepted",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "Landscape-Aware Bandit Hyper-Heuristics for Online Operator Selection in UAV Inspection Routing",
+    "authors": [
+      "J Wei",
+      "Y Li",
+      "Y Zhao",
+      "Q He",
+      "H Li",
+      "D Yao",
+      "B Lu",
+      "Z Peng",
+      "Y Wang",
+      "SK Im",
+      "…"
+    ],
+    "venue": "IJCAI-LEAD 2026",
+    "status": "accepted",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "WASHH: An Anchor-Aware Whale-Guided Selection Hyper-Heuristic for Continuous Optimization and SVC Configuration",
+    "authors": [
+      "Y Zhao",
+      "X Zou",
+      "J Wei",
+      "Y Li",
+      "B Lu",
+      "Z Peng",
+      "D Yao",
+      "H Li",
+      "Q He",
+      "SK Im",
+      "…"
+    ],
+    "venue": "IJCAI-LEAD 2026",
+    "status": "accepted",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "Low-Cost Labels, Reliable Choices: Rollout-Calibrated Hyper-Heuristics for Job Shop Scheduling",
+    "authors": [
+      "J Wei",
+      "Y Li",
+      "Y Zhao",
+      "Z Peng",
+      "B Lu",
+      "D Yao",
+      "H Li",
+      "Q He",
+      "SK Im",
+      "Y Wang",
+      "…"
+    ],
+    "venue": "IJCAI-LEAD 2026",
+    "status": "accepted",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "SAGA: A Robust Self-Attention and Goal-Aware Anchor-based Planner for Safe UAV Autonomous Navigation",
+    "authors": [
+      "J Wei",
+      "Y Li",
+      "D Yao",
+      "Y Zhao",
+      "H Li",
+      "Q He",
+      "B Lu",
+      "X Zou",
+      "D Yang",
+      "SK Im",
+      "…"
+    ],
+    "venue": "ICONIP 2026",
+    "status": "accepted",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "SEHHO-COBL: An Enhanced Harris Hawks Optimization with History-Guided Adaptive Parameter Memory and Chaotic Opposition-Based Learning for Numerical and Engineering Optimization",
+    "authors": [
+      "Y Li",
+      "J Wei",
+      "Y Zhao",
+      "Z Li",
+      "B Lu",
+      "SK Im",
+      "X Yang",
+      "KH Chan",
+      "Y Wang"
+    ],
+    "venue": "Scientific Reports",
+    "status": "accepted",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "A Geometric Whale Optimization Algorithm with Triangular Flight for Numerical Optimization and Engineering Design",
+    "authors": [
+      "J Wei",
+      "R Zhang",
+      "Y Gu",
+      "W Zhu",
+      "Y Li",
+      "Z Li",
+      "S Wu",
+      "Z Wang",
+      "N Cheong",
+      "SK Im",
+      "…"
+    ],
+    "venue": "Scientific Reports",
+    "status": "published",
+    "doi": "10.1038/s41598-026-37387-0",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "ASKSSA-CNN-BiLSTM: A Novel Time Series Forecasting Model for Stock Price Prediction Based on An Enhanced Sparrow Search Algorithm",
+    "authors": [
+      "Z Li",
+      "W Zhu",
+      "R Zhang",
+      "Y Gu",
+      "J Song",
+      "Y Li",
+      "Y Wang",
+      "Y Zhao",
+      "Q Xu",
+      "Z Wang",
+      "…"
+    ],
+    "venue": "2026 6th Asia Conference on Information Engineering (ACIE), 20–26",
+    "status": "published",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2026,
+    "title": "NAWOA-XGBoost: A Novel Model for Early Prediction of Academic Potential in Computer Science Students",
+    "authors": [
+      "J Wei",
+      "Y Gu",
+      "R Zhang",
+      "M Huang",
+      "J Song",
+      "Y Li",
+      "W Zhu",
+      "Y Wang",
+      "Z Li",
+      "…"
+    ],
+    "venue": "2026 6th Asia Conference on Information Engineering (ACIE), 62–70",
+    "status": "published",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2025,
+    "title": "ATT-BiLSTM-XGBoost: A Hybrid Deep Learning Model for EEG-Based Classification of Alzheimer's Disease and Frontotemporal Dementia",
+    "authors": [
+      "Y Gu",
+      "W Zhu",
+      "J Wei",
+      "N Cheong",
+      "Y Chen"
+    ],
+    "venue": "2025 2nd International Academic Symposium on Electronic Information and Signal Processing (EISP), 30–35",
+    "status": "published",
+    "doi": "10.1109/EISP70220.2025.00012",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2025,
+    "title": "Comparative hepatoprotective effects of AMK and PAMK via Nrf2 signaling in broiler breeders",
+    "authors": [
+      "B Lu",
+      "J He",
+      "S Pan",
+      "J Wei",
+      "B Li",
+      "N Cao",
+      "Y Huang",
+      "Y Tian",
+      "N Cheong",
+      "…"
+    ],
+    "venue": "Frontiers in Veterinary Science, 12, 1672417",
+    "status": "published",
+    "doi": "10.3389/fvets.2025.1672417",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2025,
+    "title": "LSWOA: An Enhanced Whale Optimization Algorithm with Levy flight and Spiral flight for Numerical and Engineering Design Optimization Problems",
+    "authors": [
+      "J Wei",
+      "Y Gu",
+      "Z Xie",
+      "Y Yan",
+      "B Lu",
+      "Z Li",
+      "N Cheong",
+      "J Zhang",
+      "S Zhang"
+    ],
+    "venue": "PLOS ONE, 20(9), e0322058",
+    "status": "published",
+    "doi": "10.1371/journal.pone.0322058",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2025,
+    "title": "GWOA: A Multi-strategy Enhanced Whale Optimization Algorithm for Engineering Design Optimization",
+    "authors": [
+      "Y Gu",
+      "J Wei",
+      "Z Li",
+      "B Lu",
+      "S Pan",
+      "N Cheong"
+    ],
+    "venue": "PLOS ONE, 20(9), e0322494",
+    "status": "published",
+    "doi": "10.1371/journal.pone.0322494",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2025,
+    "title": "MRBMO: An Enhanced Red-Billed Blue Magpie Optimization Algorithm for Solving Numerical Optimization Challenges",
+    "authors": [
+      "B Lu",
+      "Z Xie",
+      "J Wei",
+      "Y Gu",
+      "Y Yan",
+      "Z Li",
+      "S Pan",
+      "N Cheong",
+      "Y Chen",
+      "R Zhou"
+    ],
+    "venue": "Symmetry, 17(8), 1295",
+    "status": "published",
+    "doi": "10.3390/sym17081295",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2025,
+    "title": "Protection of LPS-induced intestinal injury in goslings by polysaccharide of Atractylodes macrocephala Koidz based on 16S rRNA and metabolomics analysis",
+    "authors": [
+      "W Li",
+      "B Lu",
+      "S Pan",
+      "S Bai",
+      "J He",
+      "B Li",
+      "N Cao",
+      "X Fu",
+      "J Wei",
+      "Y Chen",
+      "Y Huang",
+      "…"
+    ],
+    "venue": "PLOS ONE, 20(6), e0326164",
+    "status": "published",
+    "doi": "10.1371/journal.pone.0326164",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2025,
+    "title": "RWOA: A Novel Enhanced Whale Optimization Algorithm with Multi-strategy for Numerical Optimization and Engineering Design Problems",
+    "authors": [
+      "J Wei",
+      "Y Gu",
+      "B Lu",
+      "N Cheong"
+    ],
+    "venue": "PLOS ONE, 20(4), e0320913",
+    "status": "published",
+    "doi": "10.1371/journal.pone.0320913",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2025,
+    "title": "LSEWOA: An Enhanced Whale Optimization Algorithm with Multi-Strategy for Numerical and Engineering Design Optimization Problems",
+    "authors": [
+      "J Wei",
+      "Y Gu",
+      "Y Yan",
+      "Z Li",
+      "B Lu",
+      "S Pan",
+      "N Cheong"
+    ],
+    "venue": "Sensors, 25(7), 2054",
+    "status": "published",
+    "doi": "10.3390/s25072054",
+    "note": "Featured Paper",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2025,
+    "title": "TSWOA: An Enhanced WOA with Triangular Walk and Spiral Flight for Engineering Design Optimization",
+    "authors": [
+      "J Wei",
+      "Y Gu",
+      "Y Yan",
+      "Y Wang",
+      "Z Li",
+      "B Lu",
+      "S Pan",
+      "N Cheong"
+    ],
+    "venue": "2025 8th International Conference on Advanced Algorithms and Control Engineering (ICAACE)",
+    "status": "published",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2024,
+    "title": "Adaptive Position Updating Particle Swarm Optimization for UAV Path Planning",
+    "authors": [
+      "J Wei",
+      "Y Gu",
+      "KLE Law",
+      "N Cheong"
+    ],
+    "venue": "2024 22nd International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt)",
+    "status": "published",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  },
+  {
+    "year": 2024,
+    "title": "Credit Card Fraud Detection Based on MiniKM-SVMSMOTE-XGBoost Model",
+    "authors": [
+      "Y Gu",
+      "J Wei",
+      "N Cheong"
+    ],
+    "venue": "Proceedings of the 2024 8th International Conference on Big Data and Internet of Things (BDIOT)",
+    "status": "published",
+    "doi": "",
+    "note": "",
+    "source": "Google Scholar list supplied by author, 2026-09-20"
+  }
+]

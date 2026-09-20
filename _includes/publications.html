@@ -1,0 +1,30 @@
+{% assign papers = site.data.publications | sort: 'year' | reverse %}
+{% assign years = papers | map: 'year' | uniq %}
+{% for year in years %}
+<h2 class="publication-year">{{ year }}</h2>
+<ul class="publication-list">
+  {% assign year_papers = site.data.publications | where: 'year', year %}
+  {% for paper in year_papers %}
+  {% assign venue_lower = paper.venue | downcase %}
+  {% if paper.status == 'published' or paper.status == 'accepted' %}
+  {% unless venue_lower contains 'arxiv' or venue_lower contains 'preprint' or venue_lower contains 'ssrn' %}
+  {% if paper.venue != '' %}
+  {% if paper.url and paper.url != '' %}
+    {% assign paper_url = paper.url %}
+  {% elsif paper.doi and paper.doi != '' %}
+    {% assign paper_url = 'https://doi.org/' | append: paper.doi %}
+  {% else %}
+    {% assign search_title = paper.title | prepend: '"' | append: '"' | url_encode %}
+    {% assign paper_url = 'https://scholar.google.com/scholar?q=' | append: search_title %}
+  {% endif %}
+  <li>
+    <a href="{{ paper_url | escape }}" target="_blank" rel="noopener noreferrer">{{ paper.title | escape }}</a><br>
+    {% for author in paper.authors %}{% if author == 'J Wei' or author == 'Junhao Wei' %}<strong>Junhao Wei</strong>{% elsif author == '…' %}et al.{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br>
+    <em>{{ paper.venue | escape }}</em>, {{ paper.year }}{% if paper.status == 'accepted' %}. <strong class="publication-status">Accepted</strong>{% endif %}{% if paper.note and paper.note != '' %}. <span class="publication-note">{{ paper.note | escape }}</span>{% endif %}.
+  </li>
+  {% endif %}
+  {% endunless %}
+  {% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}

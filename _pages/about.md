@@ -63,6 +63,7 @@ I received my master's degree in Big Data and Internet of Things from Macao Poly
 - Advanced Engineering Informatics
 - Expert Systems with Applications
 - Artificial Intelligence Review
+- Robotics and Autonomous Systems
 - Knowledge-Based Systems
 - Archives of Computational Methods in Engineering
 - Results in Engineering

@@ -23,11 +23,11 @@ I received my master's degree in Big Data and Internet of Things from Macao Poly
 - *2026.08*: &nbsp;🎉🎉 Four papers have been accepted by **ICONIP 2026**.
 - *2026.08*: &nbsp;🎉🎉 Three papers have been accepted by **PRICAI 2026**.
 - *2026.07*: &nbsp;🎉🎉 One paper has been accepted by **PRCV 2026**.
-- *2026.07*: &nbsp;🎉🎉 One paper has been accepted by **Advanced Engineering Informatics**.
+- *2026.07*: &nbsp;🎉🎉 One paper has been accepted by **AEI**.
 - *2026.05*: &nbsp;🎉🎉 Two papers have been accepted by **IEEE VTC 2026-Fall**.
-- *2026.04*: &nbsp;🎉🎉 One paper has been accepted by **Scientific Reports**.
-- *2026.01*: &nbsp;🎉🎉 One paper has been accepted by **Scientific Reports**.
-- *2025.12*: &nbsp;🎉🎉 Selected for the 2025 doctoral student program of the China Association for Science and Technology (CAST) for young scientific and technological talent. <span lang="zh-CN">入选2025年中国科协青年科技人才培育工程博士生专项计划。</span>
+- *2026.04*: &nbsp;🎉🎉 One paper has been accepted by **Sci. Rep.**.
+- *2026.01*: &nbsp;🎉🎉 One paper has been accepted by **Sci. Rep.**.
+- *2025.12*: &nbsp;🎉🎉 Selected for the 2025 doctoral student program of the China Association for Science and Technology (CAST) for young scientific and technological talent <span lang="zh-CN">（中国科协青年科技人才培育工程博士生专项计划）</span>.
 
 # 📝 Publications
 {: #publications}

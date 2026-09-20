@@ -1,5 +1,6 @@
 {% assign papers = site.data.publications | sort: 'year' | reverse %}
 {% assign years = papers | map: 'year' | uniq %}
+<p><sup>*</sup> Corresponding author.</p>
 {% for year in years %}
 <h2 class="publication-year">{{ year }}</h2>
 <ul class="publication-list">
@@ -19,7 +20,7 @@
   {% endif %}
   <li>
     <a href="{{ paper_url | escape }}" target="_blank" rel="noopener noreferrer">{{ paper.title | escape }}</a><br>
-    {% for author in paper.authors %}{% if author == 'J Wei' or author == 'Junhao Wei' %}<strong>J Wei</strong>{% elsif author == '…' %}et al.{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br>
+    {% for author in paper.authors %}{% if author == 'J Wei' or author == 'Junhao Wei' %}<strong>J Wei</strong>{% elsif author == '…' %}et al.{% else %}{{ author | escape }}{% endif %}{% if paper.corresponding_authors contains author %}<sup title="Corresponding author">*</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br>
     <em>{{ paper.venue | escape }}</em>, {{ paper.year }}{% if paper.status == 'accepted' %}. <strong class="publication-status">Accepted</strong>{% endif %}{% if paper.note and paper.note != '' %}. <span class="publication-note">{{ paper.note | escape }}</span>{% endif %}.
   </li>
   {% endif %}

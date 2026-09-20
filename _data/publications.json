@@ -121,7 +121,10 @@
     "status": "published",
     "doi": "",
     "note": "Best Poster Award",
-    "source": "Google Scholar list supplied by author, 2026-09-20"
+    "source": "Google Scholar list supplied by author, 2026-09-20",
+    "corresponding_authors": [
+      "J Wei"
+    ]
   },
   {
     "year": 2026,
@@ -310,13 +313,17 @@
       "Y Zhao",
       "Q Xu",
       "Z Wang",
-      "…"
+      "X Yang",
+      "J Wei"
     ],
     "venue": "2026 6th Asia Conference on Information Engineering (ACIE), 20–26",
     "status": "published",
     "doi": "",
     "note": "",
-    "source": "Google Scholar list supplied by author, 2026-09-20"
+    "source": "Google Scholar list supplied by author, 2026-09-20",
+    "corresponding_authors": [
+      "J Wei"
+    ]
   },
   {
     "year": 2026,

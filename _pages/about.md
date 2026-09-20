@@ -14,7 +14,7 @@ I am currently a PhD student in Computer Applied Technology at [Macao Polytechni
 
 My research interests include **UAV autonomous navigation**, **mission generation**, and **robotics**.
 
-I received my master's degree in Big Data and Internet of Things from Macao Polytechnic University in 2025, and my bachelor's degree in Unmanned Aircraft Systems Engineering from Beijing Institute of Technology, Zhuhai in 2023.
+I received my master's degree in Big Data and Internet of Things from Macao Polytechnic University in 2025, and my bachelor's degree in Unmanned Aerial Vehicle System Engineering from Beijing Institute of Technology, Zhuhai in 2023.
 
 # 🔥 News
 {: #news}
@@ -46,7 +46,7 @@ I received my master's degree in Big Data and Internet of Things from Macao Poly
 
 - *2025 – Present*, PhD in Computer Applied Technology, **Macao Polytechnic University**
 - *2023 – 2025*, Master's in Big Data and Internet of Things, **Macao Polytechnic University**
-- *2019 – 2023*, Bachelor's in Unmanned Aircraft Systems Engineering, **Beijing Institute of Technology, Zhuhai**
+- *2019 – 2023*, Bachelor's in Unmanned Aerial Vehicle System Engineering, **Beijing Institute of Technology, Zhuhai**
 
 # 📚 Academic Services
 {: #services}

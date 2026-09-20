@@ -51,7 +51,7 @@ python3 scripts/package_site.py
 - `_data/navigation.yml`：顶部导航。
 - `_data/publications.json`：论文记录，修改后由 Jekyll 自动生成论文列表。
 - `_includes/publications.html`：普通论文列表格式与筛选规则。
-- `assets/portrait.jpg`：头像。
+- `assets/portrait.jpg`：头像，同时用作浏览器标签页的小图标。
 - `_sass/_custom.scss`：少量定制样式。其余排版使用原始模板。
 
 中文姓名、简历入口及简历 PDF 均不发布。原始简历和照片仍在本机保留，已从 Jekyll 输出与 Git 提交中排除。

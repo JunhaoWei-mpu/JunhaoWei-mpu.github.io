@@ -12,7 +12,7 @@ redirect_from:
 
 I am currently a PhD student in Computer Applied Technology at [Macao Polytechnic University](https://www.mpu.edu.mo/).
 
-My research interests include **UAV autonomous navigation**, **mission generation**, and **robotics**.
+My research interests include **robotics**, **UAV autonomous navigation**, and **UAV mission generation**.
 
 I received my master's degree in Big Data and Internet of Things from Macao Polytechnic University in 2025, and my bachelor's degree in Unmanned Aerial Vehicle System Engineering from Beijing Institute of Technology, Zhuhai in 2023.
 

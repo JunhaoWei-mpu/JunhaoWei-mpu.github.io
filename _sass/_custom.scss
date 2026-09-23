@@ -3,7 +3,12 @@
 .publication-status { color: $link-color; }
 .publication-note { color: #856221; }
 .site-update { margin-top: 2em; color: $gray; font-size: .8em; }
-.author__avatar img { height: auto; }
+.author__avatar img {
+  height: auto;
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+}
 a:focus-visible, button:focus-visible {
   outline: 2px solid $link-color;
   outline-offset: 3px;

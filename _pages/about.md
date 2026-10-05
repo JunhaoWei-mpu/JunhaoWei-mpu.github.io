@@ -19,6 +19,7 @@ I received my master's degree in Big Data and Internet of Things from Macao Poly
 # 🔥 News
 {: #news}
 
+- *2026.10*: &nbsp;🎉 One paper has been accepted by **Sci. Rep.**.
 - *2026.09*: &nbsp;🎉 One paper has been accepted by **IEEE BIBM 2026**.
 - *2026.09*: &nbsp;🎉 Four papers have been accepted by **NCMMSC 2026**.
 - *2026.08*: &nbsp;🎉 Four papers have been accepted by **ICONIP 2026**.
@@ -79,4 +80,4 @@ I received my master's degree in Big Data and Internet of Things from Macao Poly
 - Cluster Computing
 - Scientific Reports
 
-<p class="site-update">Last updated: September 2026 · Powered by <a href="https://github.com/RayeRen/acad-homepage.github.io" target="_blank" rel="noopener noreferrer">AcadHomepage</a></p>
+<p class="site-update">Last updated: October 2026 · Powered by <a href="https://github.com/RayeRen/acad-homepage.github.io" target="_blank" rel="noopener noreferrer">AcadHomepage</a></p>

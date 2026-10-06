@@ -67,6 +67,7 @@ I received my master's degree in Big Data and Internet of Things from Macao Poly
 
 ## Journal Reviewer
 
+- IEEE Transactions on Knowledge and Data Engineering
 - IEEE Transactions on Network Science and Engineering
 - IEEE Transactions on Industrial Informatics
 - Advanced Engineering Informatics

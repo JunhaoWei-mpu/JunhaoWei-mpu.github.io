@@ -19,6 +19,7 @@ I received my master's degree in Big Data and Internet of Things from Macao Poly
 # 🔥 News
 {: #news}
 
+- *2026.10*: &nbsp;🎉 Ten papers have been accepted by **IEEE CSCloud 2026**.
 - *2026.10*: &nbsp;🎉 One paper has been accepted by **Results Eng.**.
 - *2026.10*: &nbsp;🎉 One paper has been accepted by **Sci. Rep.**.
 - *2026.09*: &nbsp;🎉 One paper has been accepted by **IEEE BIBM 2026**.
